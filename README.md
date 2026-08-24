@@ -1,5 +1,8 @@
 # PFO1_Front
-pfo1 materia Frontend, porfolio sencillo con CSS.
+PFO1 materia Frontend, porfolio sencillo con CSS.
 
-## deploy en vercel:
-link:  https://pfo1-front.vercel.app/
+## Deploy en vercel:
+link:  https://pfo1-palearuzza-fernando.vercel.app/
+
+## Delcaración de uso de IA:
+Se utilizó Github Copilot para generación de maquetado básico.   
