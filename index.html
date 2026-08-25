@@ -3,14 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Vincular el favicon! -->
+	<!-- <link rel="icon" type="image/x-icon" href="img/favicon.ico"> --> 
+	<!-- <link rel="icon" type="image/png" href="img/favicon.png"> -->
+
+	<!-- Vincular el archivo CSS -->
+	<link rel="stylesheet" href="estilos.css">
+
+	<!-- vinculo fuentes de google fonts -->
+	 <link rel="preconnect" href="https://fonts.googleapis.com">	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 	<title>Mi portfolio</title>
 </head>
 
 <body>
     <header>
-		<!-- coso -->
-
-		<!-- navbar, a futuro cambiar por plantilla menú hamburguesa (w3c) -->
+		<!-- ICON O ALGO? FOTO? o el nombre, no se, seguir investigando -->
+		<!-- navbar, (falta hacer menú hamburguesa) -->
 		<nav>
 			<ul>
 				<li><a href="#inicio" class="">Inicio</a></li>
@@ -34,7 +46,6 @@
 
 		<section id="habilidades">
 			<h2>Habilidades y stack técnico</h2>
-			<!--stacks: frontend, backend 1 , dfesktop c# y bbdd,, 3 CARDS: PEDILE SOLO TYITUTLO Y LSITA. NADA MAS! DESPUES VAS EXPADNIDEN SI QUEDA TIEMPO-->
 			<arcticle class="tarjeta-habilidad">
 				<h3>Frontend</h3>
 				<ul>
@@ -71,11 +82,9 @@
 					<li>Android</li>
 				</ul>
 			</arcticle>
-			
-
 		</section>
 			
-		<section id="proyectos">
+		<section id="proyectos" class="contenedor-proyectos">
 			<h2 class="titulo-seccion">Mis Proyectos</h2>
 			<div class="lista-tarjetas">
 				<!-- y si las tarjetas son tipo, desplegables con animación? como hciste en mundo café? -->
@@ -87,10 +96,10 @@
 						
 						<!-- Etiquetas del Stack -->
 						<div class="tecnologias-lista">
-							<span class="etiqueta-tecnologia">Python</span>
-							<span class="etiqueta-tecnologia">Django</span>
-							<span class="etiqueta-tecnologia">MySQL</span>
-							<span class="etiqueta-tecnologia">JavaScript</span>
+							<span class="etiqueta-tecnologia backend">Python</span>
+							<span class="etiqueta-tecnologia backend">Django</span>
+							<span class="etiqueta-tecnologia base-datos">MySQL</span>
+							<span class="etiqueta-tecnologia frontend">JavaScript</span>
 						</div>
 						
 						<!-- Enlaces al código/demo -->
@@ -110,9 +119,9 @@
 						
 						<!-- Etiquetas del Stack -->
 						<div class="tecnologias-lista">
-							<span class="etiqueta-tecnologia">C#</span>
-							<span class="etiqueta-tecnologia">.NET</span>
-							<span class="etiqueta-tecnologia">MySQL</span>
+							<span class="etiqueta-tecnologia backend">C#</span>
+							<span class="etiqueta-tecnologia backend">.NET</span>
+							<span class="etiqueta-tecnologia base-datos">MySQL</span>
 						</div>
 						
 						<!-- Enlaces al código/demo -->
@@ -129,8 +138,8 @@
 						
 						<!-- Etiquetas del Stack -->
 						<div class="tecnologias-lista">
-							<span class="etiqueta-tecnologia">Kotlin</span>
-							<span class="etiqueta-tecnologia">Android</span>
+							<span class="etiqueta-tecnologia movil">Kotlin</span>
+							<span class="etiqueta-tecnologia movil">Android</span>
 						</div>
 						
 						<!-- Enlaces al código/demo -->
@@ -139,6 +148,7 @@
 						</div>
 					</div>
 				</article>
+			</div>
 		</section>
 	
 		<!-- Formulario de contacto con label ia -->

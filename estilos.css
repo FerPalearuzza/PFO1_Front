@@ -1,0 +1,174 @@
+/* Basic CSS Formatting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes importadas: 
+DM Sans    
+Inter
+Lato
+Montserrat
+Open Sans
+Roboto flex 
+*/
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+    font-family: inherit;
+    font-size: xxx-large;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+input, textarea, button, select {
+    font-family: inherit;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Seccion de proyectos */
+.contenedor-proyectos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.titulo-seccion {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.lista-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: 25px;
+}
+
+.tarjeta-proyecto {
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-proyecto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgb(0 0 0 / 15%);
+}
+
+.contenido-tarjeta {
+    padding: 25px;
+}
+
+.proyecto-titulo {
+    margin-bottom: 12px;
+    color: #222;
+    font-size: 1.4rem;
+}
+
+.proyecto-descripcion {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.tecnologias-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.etiqueta-tecnologia {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.frontend {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+}
+
+.backend {
+    background-color: #e8f5e9;
+    color: #1b5e20;
+}
+
+.base-datos {
+    background-color: #fff3e0;
+    color: #e65100;
+}
+
+.movil {
+    background-color: #f3e5f5;
+    color: #4a148c;
+}
+
+.enlaces-proyecto {
+    display: flex;
+    gap: 12px;
+}
+
+.boton-enlace {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.boton-enlace.codigo {
+    background-color: #24292e;
+    color: #fff;
+}
+
+.boton-enlace.codigo:hover {
+    background-color: #555;
+}
+
+.boton-enlace.demo {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.boton-enlace.demo:hover {
+    background-color: #ddd;
+}
+
+.boton-enlace:focus-visible {
+    outline: 3px solid #1976d2;
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tarjeta-proyecto,
+    .boton-enlace {
+        transition: none;
+    }
+}

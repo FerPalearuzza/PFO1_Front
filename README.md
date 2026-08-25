@@ -6,7 +6,11 @@ link:  https://pfo1-palearuzza-fernando.vercel.app/
 
 ## Delcaración de uso de IA:
 Se utilizó Github Copilot por medio de VSCode, plan gratuito para generación de maquetado básico (formulario, secciones).   
-Se utilizó Gemini plan gratuito para la estructura básica de las tarjetas de proyecto.
+Se utilizó Gemini plan gratuito para la estructura básica de las tarjetas de proyecto, y punto de partida para aplicar el css. Sujeto a modificaciones propias y de Github Copilot.
+Los comentarios son, en su mayoría, de mi autoría.
+ 
+
+
 
 ## CONSIGNAS: Qué tenés que hacer, paso a paso
 - [x] Leé toda la consigna antes de crear archivos o pedir ayuda a una IA. 
@@ -22,9 +26,9 @@ Creá tu landing de portafolio con HTML y CSS. Debe mostrar tu:
 Diseñala con libertad: el estilo es libre. Aprovechá la oportunidad para ser creativo/a y tomar decisiones visuales propias.
 
 Aplicá los requisitos técnicos: 
-- [ ] HTML semántico con header, nav, main y footer; 
+- [x] HTML semántico con header, nav, main y footer; 
 - [ ] CSS propio;
-- [ ] Google Fonts; 
+- [x] Google Fonts; 
 - [ ] Flexbox o Grid; 
 - [ ] diseño responsive; 
 - [ ] una transición o animación; 
@@ -38,7 +42,7 @@ Aplicá los requisitos técnicos:
 
 - [ ] Completá el archivo README.md del repositorio: incluí una breve descripción de la PFO1, la URL de Vercel, las decisiones que tomaste y la declaración de uso de IA.
 
-- [ ] Documentá el uso de IA: podés explorar creativamente los límites de la IA generativa que elijas, pero anotá con precisión: 
+- [x] Documentá el uso de IA: podés explorar creativamente los límites de la IA generativa que elijas, pero anotá con precisión: 
         qué herramienta usaste, 
         para qué, 
         qué plan tenía, 
