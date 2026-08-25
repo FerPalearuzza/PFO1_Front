@@ -39,11 +39,11 @@ Aplicá los requisitos técnicos:
 - [ ] Completá el archivo README.md del repositorio: incluí una breve descripción de la PFO1, la URL de Vercel, las decisiones que tomaste y la declaración de uso de IA.
 
 - [ ] Documentá el uso de IA: podés explorar creativamente los límites de la IA generativa que elijas, pero anotá con precisión: 
-* qué herramienta usaste, 
-* para qué, 
-* qué plan tenía, 
-* qué experiencia previa tenías 
-* y qué revisaste o adaptaste con criterio propio.
+        qué herramienta usaste, 
+        para qué, 
+        qué plan tenía, 
+        qué experiencia previa tenías 
+        y qué revisaste o adaptaste con criterio propio.
 
 - [x] Entregá el enlace del repositorio público en la planilla de entregas, que estará disponible en breve. La entrega es un único enlace: el de tu repositorio.
 ---
