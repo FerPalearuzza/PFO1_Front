@@ -6,7 +6,7 @@
 	
 	<!-- Vincular el favicon! -->
 	<!-- <link rel="icon" type="image/x-icon" href="img/favicon.ico"> --> 
-	<!-- <link rel="icon" type="image/png" href="img/favicon.png"> -->
+	<link rel="icon" type="image/png" href="../binario.png"> <!--NO USAR EN PRODUCCIÓN-->
 
 	<!-- Vincular el archivo CSS -->
 	<link rel="stylesheet" href="estilos.css">
@@ -44,9 +44,9 @@
 			</div>
 		</section>
 
-		<section id="habilidades" class="contenedor-tarjetas">
+		<section id="habilidades" class="contenedor-seccion">
 			<h2 class="titulo-seccion">Habilidades y stack técnico</h2>
-			<div class="lista-tarjetas">
+			<div class="lista-tarjetas-habilidades">
 				<article class="tarjeta contenido-tarjeta">
 					<h3>Frontend</h3>
 					<ul>
@@ -83,15 +83,15 @@
 			</div>
 		</section>
 			
-		<section id="proyectos" class="contenedor-tarjetas">
+		<section id="proyectos" class="contenedor-seccion">
 			<h2 class="titulo-seccion">Mis Proyectos</h2>
-				<div class="lista-tarjetas">
+				<div class="lista-tarjetas-proyectos">
 				<!-- y si las tarjetas son tipo, desplegables con animación? como hciste en mundo café? -->
 				<!-- el DIV contenido tarjeta añade el padding así se puede poner una imagen en la mitad superior del card -->
 				<!-- TARJETA 1: FULLSTACK MUNDO CAFE -->
 				<article class="tarjeta">
 					<div class="contenido-tarjeta">
-						<h3 class="proyecto-titulo">Plataforma Web Fullstack</h3>
+						<h3 class="tarjeta-titulo">Plataforma Web Fullstack</h3>
 						<p class="proyecto-descripcion">Aplicación web completa con arquitectura MVC con landing page, múltiples páginas y formulario de contacto con validación y persistencia de datos.</p>
 						
 						<!-- Etiquetas del Stack -->
@@ -112,7 +112,7 @@
 				<!-- TARJETA 2: C# CLINICA -->
 				<article class="tarjeta">
 					<div class="contenido-tarjeta">
-						<h3 class="proyecto-titulo">Sistema de gestión de clínicas </h3>
+						<h3 class="tarjeta-titulo">Sistema de gestión de clínicas </h3>
 						<p class="proyecto-descripcion">
 							Aplicación de escritorio con acceso a datos para la gestión de clínicas médicas, desarrollada en .NET. Incluye funcionalidades para la administración de pacientes, citas, historial médico y facturación.
 						</p>
@@ -133,7 +133,7 @@
 				<!-- TARJETA 3: CLUB DEPORTIVO MOBILE -->
 				<article class="tarjeta">
 					<div class="contenido-tarjeta">
-						<h3 class="proyecto-titulo">Club deportivo - App mobile android</h3>
+						<h3 class="tarjeta-titulo">Club deportivo - App mobile android</h3>
 						<p class="proyecto-descripcion">Aplicación movil con acceso a datos para la gestión de un club deportivo, desarrollada en kotlin. Incluye funcionalidades para la administración de socio y no socios, cobros, emisión de carnet, altas y bajas.</p>
 						
 						<!-- Etiquetas del Stack -->
@@ -151,9 +151,9 @@
 			</div>
 		</section>
 	
-		<!-- Formulario de contacto con label ia -->
-		<section id="contacto">
-			<h2>Contacto</h2>
+		<!-- Formulario de contacto con label -->
+		<section id="contacto" class="contenedor-seccion">
+			<h2 class="titulo-seccion">Contacto</h2>
 			<form action="#" method="post">
 				<div>
 					<label for="nombre">Nombre</label>

@@ -12,10 +12,12 @@ Los comentarios son, en su mayoría, de mi autoría.
 
 ## Para hacer
 - [ ] css nabvar -> hamburguesa
-- [ ] css hero
-- [ ] css habilidades
-- [ ] css proyectos
-- [ ] css footer
+- [ ] css hero [a la izq, falta boton de link a github y foto de fondo]
+- [x] css habilidades
+- [ ] css proyectos [¡ARREGLAR BUG EN EL PRIMER CARD!]
+- [ ] css contacto
+- [x] css footer [se puede mejorar]
+- [ ] fondo, color o imagen
 
 
 ## CONSIGNAS: Qué tenés que hacer, paso a paso
