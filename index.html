@@ -14,13 +14,13 @@
 		<nav>
 			<ul>
 				<li><a href="#inicio" class="">Inicio</a></li>
-				<li><a href="#sobre-mi" class="">Habilidades</a></li>
+				<li><a href="#habilidades" class="">Habilidades</a></li>
 				<li><a href="#proyectos" class="">Proyectos</a></li>
 				<li><a href="#contacto" class="">Contacto</a></li>
 			</ul>
 		</nav>
 	</header>
-	
+
 	<main>
 		<!-- Hero -->
 		<section id="inicio">
@@ -32,17 +32,108 @@
 			</div>
 		</section>
 
-		<section id="sobre-mi"></section>
-
-		<section id="proyectos"></section>
+		<section id="habilidades">
+			<h2>Habilidades y stack técnico</h2>
+			<div class="card"></div>
+			<div class="card"></div>
+			<div class="card"></div>
+			<div class="card"></div>
+		</section>
+			
+		<section id="proyectos">
+			<h2 class="titulo-seccion">Mis Proyectos</h2>
+			<div class="lista-tarjetas">
+				<!-- TARJETA 1: FULLSTACK MUNDO CAFE -->
+				<article class="tarjeta-proyecto">
+					<div class="contenido-tarjeta">
+						<h3 class="proyecto-titulo">Plataforma Web Fullstack</h3>
+						<p class="proyecto-descripcion">Aplicación web completa con arquitectura MVC con landing page, múltiples páginas y formulario de contacto con validación y persistencia de datos.</p>
+						
+						<!-- Etiquetas del Stack -->
+						<div class="tecnologias-lista">
+							<span class="etiqueta-tecnologia">Python</span>
+							<span class="etiqueta-tecnologia">Django</span>
+							<span class="etiqueta-tecnologia">MySQL</span>
+							<span class="etiqueta-tecnologia">JavaScript</span>
+						</div>
+						
+						<!-- Enlaces al código/demo -->
+						<div class="enlaces-proyecto">
+							<a href="https://github.com/FerPalearuzza/combinado" target="_blank" class="boton-enlace codigo">Ver Código</a>
+							<a href="https://exequiiel021.github.io/Integrador/" target="_blank" class="boton-enlace demo">Ver Demo</a> 
+						</div>
+					</div>
+				</article>
+				<!-- TARJETA 2: C# CLINICA -->
+				<article class="tarjeta-proyecto">
+					<div class="contenido-tarjeta">
+						<h3 class="proyecto-titulo">Sistema de gestión de clínicas </h3>
+						<p class="proyecto-descripcion">
+							Aplicación de escritorio con acceso a datos para la gestión de clínicas médicas, desarrollada en .NET. Incluye funcionalidades para la administración de pacientes, citas, historial médico y facturación.
+						</p>
+						
+						<!-- Etiquetas del Stack -->
+						<div class="tecnologias-lista">
+							<span class="etiqueta-tecnologia">C#</span>
+							<span class="etiqueta-tecnologia">.NET</span>
+							<span class="etiqueta-tecnologia">MySQL</span>
+						</div>
+						
+						<!-- Enlaces al código/demo -->
+						<div class="enlaces-proyecto">
+							<a href="https://github.com/juanmanuelalbareda/TP1-Grupo15-ClinicaSePrice" target="_blank" class="boton-enlace codigo">Ver Código</a>
+						</div>
+					</div>
+				</article>
+				<!-- TARJETA 3: CLUB DEPORTIVO MOBILE -->
+				<article class="tarjeta-proyecto">
+					<div class="contenido-tarjeta">
+						<h3 class="proyecto-titulo">Club deportiuvo - App mobile android</h3>
+						<p class="proyecto-descripcion">Aplicación movil con acceso a datos para la gestión de un club deportivo, desarrollada en kotlin. Incluye funcionalidades para la administración de socio y no socios, cobros, emisión de carnet, altas y bajas.</p>
+						
+						<!-- Etiquetas del Stack -->
+						<div class="tecnologias-lista">
+							<span class="etiqueta-tecnologia">Kotlin</span>
+							<span class="etiqueta-tecnologia">Android</span>
+							<span class="etiqueta-tecnologia">MySQL</span>
+						</div>
+						
+						<!-- Enlaces al código/demo -->
+						<div class="enlaces-proyecto">
+							<a href="https://github.com/NanoCode10/CLub_Deportivo_Mobile" target="_blank" class="boton-enlace codigo">Ver Código</a>  
+						</div>
+					</div>
+				</article>
+		</section>
 	
-		<!-- Formulario de contacto -->
-		<section id="contacto"></section>
+		<!-- Formulario de contacto con label ia -->
+		<section id="contacto">
+			<h2>Contacto</h2>
+			<form action="#" method="post">
+				<div>
+					<label for="nombre">Nombre</label>
+					<input type="text" id="nombre" name="nombre" required>
+				</div>
+				<div>
+					<label for="correo">Correo electrónico</label>
+					<input type="email" id="correo" name="correo" required>
+				</div>
+				<div>
+					<label for="mensaje">Mensaje</label>
+					<textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+				</div>
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
 	
 	</main>
 	
-	
-	<footer></footer>
+	<!-- Footer tmb generado con ia -->
+	<footer>
+		<p>&copy; Fernando Palearuzza</p>
+		<p><a href="https://github.com/FerPalearuzza" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+		<img class="icon" src="img/github_icon.png" alt="github icon">
+	</footer>
 
 </body>
 
