@@ -10,6 +10,12 @@ Se utilizó Gemini plan gratuito para la estructura básica de las tarjetas de p
 Los comentarios son, en su mayoría, de mi autoría.
  
 
+## Para hacer
+- [ ] css nabvar -> hamburguesa
+- [ ] css hero
+- [ ] css habilidades
+- [ ] css proyectos
+- [ ] css footer
 
 
 ## CONSIGNAS: Qué tenés que hacer, paso a paso
@@ -19,7 +25,7 @@ Los comentarios son, en su mayoría, de mi autoría.
 Creá tu landing de portafolio con HTML y CSS. Debe mostrar tu:
 - [x] nombre y apellido,
 - [x] una presentación, 
-- [ ] tus habilidades,  
+- [x] tus habilidades,  
 - [x] una forma de contacto 
 - [x] una sección personal a elección: ¿sería los proyectos?
 
@@ -29,9 +35,9 @@ Aplicá los requisitos técnicos:
 - [x] HTML semántico con header, nav, main y footer; 
 - [ ] CSS propio;
 - [x] Google Fonts; 
-- [ ] Flexbox o Grid; 
+- [x] Flexbox o Grid; 
 - [ ] diseño responsive; 
-- [ ] una transición o animación; 
+- [x] una transición o animación; 
 - [ ] imágenes con alt y 
 - [x] formulario con label ¿hecho?
 

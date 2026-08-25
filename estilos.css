@@ -1,18 +1,10 @@
-/* Basic CSS Formatting */
+/* Reset de estilos básicos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Fuentes importadas: 
-DM Sans    
-Inter
-Lato
-Montserrat
-Open Sans
-Roboto flex 
-*/
 
 body {
   font-family: 'Inter', sans-serif;
@@ -34,6 +26,7 @@ h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;
 }
 
+/* Formularios */
 input, textarea, button, select {
     font-family: inherit;
 }
@@ -42,8 +35,8 @@ p {
     margin-bottom: 1em;
 }
 
-/* Seccion de proyectos */
-.contenedor-proyectos {
+
+.contenedor-tarjetas {
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
@@ -62,7 +55,7 @@ p {
     gap: 25px;
 }
 
-.tarjeta-proyecto {
+.tarjeta {
     overflow: hidden;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -71,7 +64,8 @@ p {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.tarjeta-proyecto:hover {
+/* Efecto hover para las tarjetas */
+.tarjeta:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgb(0 0 0 / 15%);
 }
@@ -167,7 +161,7 @@ p {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .tarjeta-proyecto,
+    .tarjeta,
     .boton-enlace {
         transition: none;
     }

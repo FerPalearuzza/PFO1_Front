@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="estilos.css">
 
 	<!-- vinculo fuentes de google fonts -->
-	 <link rel="preconnect" href="https://fonts.googleapis.com">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">	
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
@@ -44,52 +44,52 @@
 			</div>
 		</section>
 
-		<section id="habilidades">
-			<h2>Habilidades y stack técnico</h2>
-			<arcticle class="tarjeta-habilidad">
-				<h3>Frontend</h3>
-				<ul>
-					<li>HTML5</li>
-					<li>CSS3</li>
-					<li>JavaScript</li>
-					<li>Bootstrap</li>
-				</ul>
-			</arcticle>
-
-			<arcticle class="tarjeta-habilidad">
-				<h3>Backend</h3>
-				<ul>
-					<li>Python</li>
-					<li>Django</li>
-					<li>Node JS</li>
-					<li>Express</li>
-				</ul>
-			</arcticle>
-
-			<arcticle class="tarjeta-habilidad">
-				<h3>Desktop</h3>
-				<ul>
-					<li>C#</li>
-					<li>.NET</li>
-					<li>My SQL</li>
-				</ul>
-			</arcticle>
-
-			<arcticle class="tarjeta-habilidad">
-				<h3>Mobile</h3>
-				<ul>
-					<li>Kotlin</li>
-					<li>Android</li>
-				</ul>
-			</arcticle>
+		<section id="habilidades" class="contenedor-tarjetas">
+			<h2 class="titulo-seccion">Habilidades y stack técnico</h2>
+			<div class="lista-tarjetas">
+				<article class="tarjeta contenido-tarjeta">
+					<h3>Frontend</h3>
+					<ul>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>JavaScript</li>
+						<li>Bootstrap</li>
+					</ul>
+				</article>
+				<article class="tarjeta contenido-tarjeta">
+					<h3>Backend</h3>
+					<ul>
+						<li>Python</li>
+						<li>Django</li>
+						<li>Node JS</li>
+						<li>Express</li>
+					</ul>
+				</article>
+				<article class="tarjeta contenido-tarjeta">
+					<h3>Desktop</h3>
+					<ul>
+						<li>C#</li>
+						<li>.NET</li>
+						<li>My SQL</li>
+					</ul>
+				</article>
+				<article class="tarjeta contenido-tarjeta">
+					<h3>Mobile</h3>
+					<ul>
+						<li>Kotlin</li>
+						<li>Android</li>
+					</ul>
+				</article>
+			</div>
 		</section>
 			
-		<section id="proyectos" class="contenedor-proyectos">
+		<section id="proyectos" class="contenedor-tarjetas">
 			<h2 class="titulo-seccion">Mis Proyectos</h2>
-			<div class="lista-tarjetas">
+				<div class="lista-tarjetas">
 				<!-- y si las tarjetas son tipo, desplegables con animación? como hciste en mundo café? -->
+				<!-- el DIV contenido tarjeta añade el padding así se puede poner una imagen en la mitad superior del card -->
 				<!-- TARJETA 1: FULLSTACK MUNDO CAFE -->
-				<article class="tarjeta-proyecto">
+				<article class="tarjeta">
 					<div class="contenido-tarjeta">
 						<h3 class="proyecto-titulo">Plataforma Web Fullstack</h3>
 						<p class="proyecto-descripcion">Aplicación web completa con arquitectura MVC con landing page, múltiples páginas y formulario de contacto con validación y persistencia de datos.</p>
@@ -110,7 +110,7 @@
 					</div>
 				</article>
 				<!-- TARJETA 2: C# CLINICA -->
-				<article class="tarjeta-proyecto">
+				<article class="tarjeta">
 					<div class="contenido-tarjeta">
 						<h3 class="proyecto-titulo">Sistema de gestión de clínicas </h3>
 						<p class="proyecto-descripcion">
@@ -131,7 +131,7 @@
 					</div>
 				</article>
 				<!-- TARJETA 3: CLUB DEPORTIVO MOBILE -->
-				<article class="tarjeta-proyecto">
+				<article class="tarjeta">
 					<div class="contenido-tarjeta">
 						<h3 class="proyecto-titulo">Club deportivo - App mobile android</h3>
 						<p class="proyecto-descripcion">Aplicación movil con acceso a datos para la gestión de un club deportivo, desarrollada en kotlin. Incluye funcionalidades para la administración de socio y no socios, cobros, emisión de carnet, altas y bajas.</p>
