@@ -18,6 +18,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;
 }
 
+#inicio {
+    background-color: #1976d2;
+    height: 100vh;
+}
+
+
+
 /*Barra de navegación*/
 header {
     display: flex;
@@ -25,7 +32,6 @@ header {
     justify-items: stretch;
     background-color: #333;
     align-items: center;
-    padding: 10px 20px;
 }
 
 .logo{
@@ -85,7 +91,6 @@ nav {
 }
 
 .nav-links a:hover {
-    /**/
     background-color: #222;
 }
 
@@ -96,7 +101,7 @@ nav {
     }
 
     .nav-links {
-        display: none;
+        display: none; /*por defecto oculta la lista en pantallas chicas*/
         flex-direction: column;
         width: 100%;
     }
