@@ -10,6 +10,8 @@ body {
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
+    min-height: 100dvh; /*para que siempre ocupe el espacio sobrante en la pantalla*/
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,14 +20,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;
 }
 
-#inicio {
-    background-color: #1976d2;
-    height: 100vh;
-}
+/* ------ Barra de navegación ------ */
 
 
+/* Navegación por defecto: escritorio - oculto icono hamburguesa y muestro lista horizontal */
+/* .hamburguer-lines no se muestra (display:none) y .nav-links si (display:flex); se invierten en mobile */
+/*altura header en escritorio deberia ser = a la del mobile (que es 3.2rem) =
+fuente de a 1rem  + pading a 2*1.1rem = 3.2rem */
 
-/*Barra de navegación*/
 header {
     display: flex;
     justify-content: space-between;
@@ -37,55 +39,29 @@ header {
 .logo{
     display:block;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.6 rem;
     font-weight: bold;
     margin: auto 1rem;
 }
-
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
 }
 
-/*checkbox botón*/
-#menu-toggle {
-    display: none;
-}
-
-/* las 3 raytitas */
-.hamburger-lines {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-.hamburger-lines span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: white;
-}
-
-
-/* Navegación por defecto: escritorio */
-.hamburger-lines {
-    display: none; 
-}
 .nav-links {
     display: flex; /* mostrar lista */
     flex-direction: row;
     width: auto;
 }
 .nav-links li {
-    margin-left: 20px;
     list-style: none;
 }
 .nav-links a {
     display: block;
-    padding: 10px;
+    font-size: 1rem;
+    padding: 1rem;
     color: white;
     text-decoration: none;
 }
@@ -94,7 +70,31 @@ nav {
     background-color: #222;
 }
 
+/*checkbox botón*/
+#menu-toggle {
+    display: none;
+}
+
+/* las 3 raytitas (son los span contenidos dentro del label.hamburguer-lines) */
+.hamburger-lines {
+    cursor: pointer;
+    display: none; /*En modo de escritorio no se muestra, se cambia a display flex solamente en móvil*/
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 1rem;
+}
+.hamburger-lines span {
+    display: block;
+    width: 1.6rem;
+    height: 0.2rem;
+    background-color: white;
+}
+/* altura del icono de hamburguesa 1.2 rem */
+/* altura de .hamburguer-lines con padding inlcuido = 3.2 rem [es la del header completo] */
+
+
 /* MOBILE - pantallas chicas */
+
 @media (max-width: 599px) {
     .hamburger-lines {
         display: flex;
@@ -105,19 +105,35 @@ nav {
         flex-direction: column;
         width: 100%;
     }
-
     .nav-links li {
         margin-left: 0;
     }
+    .nav-links a {
+        padding-top: 0.5rem;
+    }
+
     /* funcionalidad del botón para desplegar lista */
     #menu-toggle:checked ~ .nav-links {
         display: flex;
         position: absolute;
-        top: 60px;
+        top: 3.2rem; /* la altura del header dada por .hamburguer-lines*/
         left: 0;
         background-color: #333;
     }
 }
+
+/* --------- MAIN ---------- */
+
+#inicio {
+    background-color: #19d2aa;
+     /*min-height: 100vh; uso min height para no cortar el contenido */
+}
+
+
+
+
+
+
 
 .lista-tarjetas-habilidades {
         grid-template-columns: 1fr;
@@ -129,7 +145,7 @@ input, textarea, button, select {
 }
 
 p {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 
