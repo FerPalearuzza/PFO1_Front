@@ -139,14 +139,23 @@ nav {
 /* --------- MAIN ---------- */
 
 #inicio {
-    background-color: #19d2aa;
+    background-color: #197fd2;
      /*min-height: 100vh; uso min height para no cortar el contenido */
+    min-height: calc(100vh - 3.2rem); /* la altura de la pantalla menos la del header que ya establecí */
+    display: flex;
+    align-items: center;
+    padding: 2rem;
 }
 
-
-
-
-
+.boton-hero{
+    text-decoration: none;
+    color: #222;
+    background-color: #ddd;
+    display: block;
+    padding: 0.5rem;
+    border: 0.1rem solid #222;
+    border-radius: 0.2rem;
+}
 
 
 .lista-tarjetas-habilidades {
