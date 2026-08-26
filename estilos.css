@@ -5,12 +5,11 @@
     box-sizing: border-box;
 }
 
-
 body {
-  font-family: 'Inter', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1 {
@@ -25,6 +24,90 @@ h2, h3, h4, h5, h6 {
     font-weight: 600;
     margin-bottom: 0.5em;
 }
+
+/*Barra de navegación*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+/*checkbox botón*/
+#menu-toggle {
+    display: none;
+}
+
+/* las 3 raytitas */
+.hamburger-lines {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.hamburger-lines span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}
+
+
+/* Navegación por defecto: escritorio */
+.hamburger-lines {
+    display: none; 
+}
+.nav-links {
+    display: flex; /* mostrar lista */
+    flex-direction: row;
+    width: auto;
+}
+.nav-links li {
+    margin-left: 20px;
+    list-style: none;
+}
+.nav-links a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* MOBILE - pantallas chicas */
+@media (max-width: 599px) {
+    .hamburger-lines {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+    }
+    /* funcionalidad del botón para desplegar lista */
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+}
+
+.lista-tarjetas-habilidades {
+        grid-template-columns: 1fr;
+    }
 
 /* Formularios */
 input, textarea, button, select {
@@ -198,12 +281,6 @@ p {
     outline-offset: 3px;
 }
 
-@media (prefers-reduced-motion: reduce) {
-    .tarjeta,
-    .boton-enlace {
-        transition: none;
-    }
-}
 
 /* Formulario de contacto */
 #contacto form {
@@ -243,9 +320,3 @@ p {
     box-shadow: 0 8px 15px rgb(0 0 0 / 15%);
 }
 
-/* Para el diseño responsive */
-@media (max-width: 500px) {
-    .lista-tarjetas-habilidades {
-        grid-template-columns: 1fr;
-    }
-}

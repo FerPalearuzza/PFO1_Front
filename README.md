@@ -7,11 +7,15 @@ link:  https://pfo1-palearuzza-fernando.vercel.app/
 ## Delcaración de uso de IA:
 Se utilizó Github Copilot por medio de VSCode, plan gratuito para generación de maquetado básico (formulario, secciones).   
 Se utilizó Gemini plan gratuito para la estructura básica de las tarjetas de proyecto, y punto de partida para aplicar el css. Sujeto a modificaciones propias y de Github Copilot.
-Los comentarios son, en su mayoría, de mi autoría.
- 
+Los comentarios son, algunos, de mi autoría, y otros son modificaciones o simplificaciones de los comentarios que dejan los agentes de ia .
+Se utilizó una adaptación del código gneerado por gemini en los resultados de búsqueda de google al buscar ejemplos de código para menú hamburguesa, el cual ya conocía de forma limitada. 
+Se utilizó github copilot para pulir y debuggear el funcionamiento del navbar. 
+
+
+
 
 ## Para hacer
-- [ ] css nabvar -> hamburguesa
+- [x] css nabvar -> hamburguesa
 - [ ] css hero [a la izq, falta boton de link a github y foto de fondo]
 - [x] css habilidades
 - [ ] css proyectos [¡ARREGLAR BUG EN EL PRIMER CARD!]
@@ -38,7 +42,7 @@ Aplicá los requisitos técnicos:
 - [ ] CSS propio;
 - [x] Google Fonts; 
 - [x] Flexbox o Grid; 
-- [ ] diseño responsive; 
+- [x] diseño responsive; 
 - [x] una transición o animación; 
 - [ ] imágenes con alt y 
 - [x] formulario con label ¿hecho?
