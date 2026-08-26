@@ -26,7 +26,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Navegación por defecto: escritorio - oculto icono hamburguesa y muestro lista horizontal */
 /* .hamburguer-lines no se muestra (display:none) y .nav-links si (display:flex); se invierten en mobile */
 /*altura header en escritorio deberia ser = a la del mobile (que es 3.2rem) =
-fuente de a 1rem  + pading a 2*1.1rem = 3.2rem */
+fuente de a 1rem  + pading a 2*1.1rem = 3.2rem 
+po alguna razon la fuente de los a se sobreescribe a 1.1rem, así que invierto los valores
+*/
+
+/* opcion 2: fijar el tamaño del icono de hamburgesa, y luego fijar un tamaño fijo para le header, dejando el padding de los links en auto*/
 
 header {
     display: flex;
