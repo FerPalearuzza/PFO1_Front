@@ -29,8 +29,20 @@ h2, h3, h4, h5, h6 {
 header {
     display: flex;
     justify-content: space-between;
+    justify-items: stretch;
     background-color: #333;
+    align-items: center;
+    padding: 10px 20px;
 }
+
+.logo{
+    display:block;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto 1rem;
+}
+
 
 nav {
     display: flex;
