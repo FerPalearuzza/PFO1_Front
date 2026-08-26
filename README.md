@@ -12,7 +12,9 @@ Se utilizó una adaptación del código gneerado por gemini en los resultados de
 Se utilizó github copilot para pulir y debuggear el funcionamiento del navbar. 
 
 
-
+## Fuentes adicionales consultadas
+https://grid.malven.co
+https://w3schools.com
 
 ## Para hacer
 - [x] css nabvar -> hamburguesa
@@ -20,7 +22,7 @@ Se utilizó github copilot para pulir y debuggear el funcionamiento del navbar.
 - [x] css habilidades
 - [ ] css proyectos [¡ARREGLAR BUG EN EL PRIMER CARD!]
 - [ ] css contacto
-- [x] css footer [se puede mejorar]
+- [] css footer [se puede mejorar]
 - [ ] fondo, color o imagen
 
 
