@@ -22,7 +22,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ------ Barra de navegación ------ */
 
-
 /* Navegación por defecto: escritorio - oculto icono hamburguesa y muestro lista horizontal */
 /* .hamburguer-lines no se muestra (display:none) y .nav-links si (display:flex); se invierten en mobile */
 /*altura header en escritorio deberia ser = a la del mobile (que es 3.2rem) =
@@ -43,7 +42,7 @@ header {
 .logo{
     display:block;
     color: white;
-    font-size: 1.6 rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin: auto 1rem;
 }
@@ -64,10 +63,10 @@ nav {
 }
 .nav-links a {
     display: block;
-    font-size: 1rem;
     padding: 1rem;
     color: white;
     text-decoration: none;
+    /*font-size se pone de forma automática en 19.08 px, no se como modificarlo */
 }
 
 .nav-links a:hover {
@@ -79,10 +78,21 @@ nav {
     display: none;
 }
 
-/* las 3 raytitas (son los span contenidos dentro del label.hamburguer-lines) */
+/* Estilos menú hamburguesa google fonts */
+.material-symbols-outlined {
+    color: white;
+    font-size: 1.4rem !important;
+    padding: 0.9rem;
+   
+}
 .hamburger-lines {
+    display: none;
+}
+
+/* las 3 raytitas (son los span contenidos dentro del label.hamburguer-lines) */
+/* .hamburger-lines {
     cursor: pointer;
-    display: none; /*En modo de escritorio no se muestra, se cambia a display flex solamente en móvil*/
+    display: none; En modo de escritorio no se muestra, se cambia a display flex solamente en móvil
     flex-direction: column;
     gap: 0.3rem;
     padding: 1rem;
@@ -93,6 +103,7 @@ nav {
     height: 0.2rem;
     background-color: white;
 }
+*/
 /* altura del icono de hamburguesa 1.2 rem */
 /* altura de .hamburguer-lines con padding inlcuido = 3.2 rem [es la del header completo] */
 
@@ -103,7 +114,6 @@ nav {
     .hamburger-lines {
         display: flex;
     }
-
     .nav-links {
         display: none; /*por defecto oculta la lista en pantallas chicas*/
         flex-direction: column;
