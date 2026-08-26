@@ -12,14 +12,7 @@ body {
     font-style: normal;
 }
 
-h1 {
-    font-family: inherit;
-    font-size: xxx-large; /* ver si está bien */
-    font-weight: 600;
-    margin-bottom: 0.5em;
-}
-
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
     font-weight: 600;
     margin-bottom: 0.5em;

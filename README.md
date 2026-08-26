@@ -5,6 +5,7 @@ PFO1 materia Frontend, porfolio sencillo con CSS.
 link:  https://pfo1-palearuzza-fernando.vercel.app/
 
 ## Delcaración de uso de IA:
+Se utilizó IA generativa para generar porciones de código y plantillas de partes del html y del código css correspondiente. Sujetas a modificaciones propias.
 Se utilizó Github Copilot por medio de VSCode, plan gratuito para generación de maquetado básico (formulario, secciones).   
 Se utilizó Gemini plan gratuito para la estructura básica de las tarjetas de proyecto, y punto de partida para aplicar el css. Sujeto a modificaciones propias y de Github Copilot.
 Los comentarios son, algunos, de mi autoría, y otros son modificaciones o simplificaciones de los comentarios que dejan los agentes de ia .
@@ -22,7 +23,7 @@ https://w3schools.com
 - [x] css habilidades
 - [ ] css proyectos [¡ARREGLAR BUG EN EL PRIMER CARD!]
 - [ ] css contacto
-- [] css footer [se puede mejorar]
+- [x] css footer [se puede mejorar]
 - [ ] fondo, color o imagen
 
 
@@ -54,7 +55,7 @@ Aplicá los requisitos técnicos:
 
 - [ ] Usá imágenes con criterio: podés usar fotos propias y también procesarlas con IA. Si usás imágenes generadas o intervenidas, registralo en el README.
 
-- [ ] Completá el archivo README.md del repositorio: incluí una breve descripción de la PFO1, la URL de Vercel, las decisiones que tomaste y la declaración de uso de IA.
+- [x] Completá el archivo README.md del repositorio: incluí una breve descripción de la PFO1, la URL de Vercel, las decisiones que tomaste y la declaración de uso de IA.
 
 - [x] Documentá el uso de IA: podés explorar creativamente los límites de la IA generativa que elijas, pero anotá con precisión: 
         qué herramienta usaste, 
