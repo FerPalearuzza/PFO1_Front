@@ -169,6 +169,12 @@ nav {
     max-width: fit-content;
 }
 
+.boton-hero:hover{
+    background-color: #1980e7;
+    color: #ddd;
+    transform: scale(1.05);
+}
+
 
 .lista-tarjetas-habilidades {
         grid-template-columns: 1fr;
