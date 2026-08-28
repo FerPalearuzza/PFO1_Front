@@ -249,6 +249,18 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
     gap: 25px;
+    align-items: stretch;
+}
+
+.lista-tarjetas-proyectos .tarjeta {
+    display: flex;
+    height: 100%;
+}
+
+.lista-tarjetas-proyectos .contenido-tarjeta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .proyecto-descripcion {
@@ -256,6 +268,11 @@ p {
     color: #555;
     font-size: 0.95rem;
     line-height: 1.6;
+    flex: 1;
+}
+
+.tecnologias-lista {
+    margin-top: auto;
 }
 
 /* mostrar tecnologías en "pastillas" */
