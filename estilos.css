@@ -136,6 +136,29 @@ nav {
     }
 }
 
+
+/* Botones estilos generales */
+.boton {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    text-align: center;
+    text-decoration: none;
+    border: 0.1rem solid #222;
+    border-radius: 0.37rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.boton:hover{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 15%);
+}
+.boton:active{
+    transform: scale(0.98);
+}
+
+
+
+
 /* --------- MAIN ---------- */
 
 #inicio {
@@ -164,20 +187,22 @@ nav {
     font-weight: 500;
     display: block;
     padding: 0.5rem 2rem;
-    border: 0.1rem solid #222;
-    border-radius: 0.2rem;
     max-width: fit-content;
 }
 
 .boton-hero:hover{
-    background-color: #1980e7;
+    background-color: rgb(172, 195, 235);
+}
+.boton-hero:active{
+    background-color: #264dfc;
     color: #ddd;
-    transform: scale(1.05);
+
 }
 
 
+
 .lista-tarjetas-habilidades {
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     }
 
 /* Formularios */
@@ -210,7 +235,6 @@ p {
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* padding interno de tarjeta */
@@ -226,10 +250,12 @@ p {
 
 
 /* Animación al pasar el mouse sobre las tarjetas. Aplica sombreado y cambia de tamaño */
-.tarjeta:hover {
+/* .tarjeta:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgb(0 0 0 / 15%);
 }
+*/
+
 
 /* sección habilidades */
 #habilidades .tarjeta {
@@ -334,37 +360,30 @@ p {
     gap: 12px;
 }
 
-.boton-enlace {
+.boton-proyecto {
     flex: 1;
-    padding: 10px;
-    border-radius: 6px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.2s ease; /* animación al cliquear */
 }
 
-.boton-enlace.codigo {
+.boton-proyecto.codigo {
     background-color: #24292e;
     color: #fff;
 }
 
-.boton-enlace.codigo:hover {
+.boton-proyecto.codigo:hover {
     background-color: #555;
 }
 
-.boton-enlace.demo {
+.boton-proyecto.demo {
     background-color: #f0f0f0;
     color: #333;
 }
 
-.boton-enlace.demo:hover {
+.boton-proyecto.demo:hover {
     background-color: #ddd;
 }
 
 /* al navegar con Tab */
-.boton-enlace:focus-visible {
+.boton-proyecto:focus-visible {
     outline: 3px solid #1976d2;
     outline-offset: 3px;
 }
@@ -390,23 +409,18 @@ p {
     width: 100%;
 }
 
-#contacto button{
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+
+.boton-contacto {
+    background-color: #24292e;
+    color: #fff;
 }
 
-#contacto button:hover {
-    background-color: #1976d2;
+.boton-contacto:hover {
+    background-color: #777;
     color: #fff;
-    transform: scaleY(1.08  ) scaleX(1.005);
-    box-shadow: 0 8px 15px rgb(0 0 0 / 15%);
 }
+
+
 
 /* Footer */
 footer {
