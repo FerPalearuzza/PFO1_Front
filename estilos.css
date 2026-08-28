@@ -139,22 +139,34 @@ nav {
 /* --------- MAIN ---------- */
 
 #inicio {
-    background-color: #197fd2;
-     /*min-height: 100vh; uso min height para no cortar el contenido */
+    background-color: #071d7e; /* al estar primero es sobreescrito por la imagen si esta carga, de lo contrario, se muestra el color */
+    background-image: url(img/fondo_abstracto.avif);
+    background-size: cover;
+    background-position: center;
+
+    /*min-height: 100vh; uso min height para no cortar el contenido */
     min-height: calc(100vh - 3.2rem); /* la altura de la pantalla menos la del header que ya establecí */
     display: flex;
     align-items: center;
     padding: 2rem;
+
+}
+
+.contenedor-inicio {
+    color: #ddd;
 }
 
 .boton-hero{
     text-decoration: none;
-    color: #222;
+    color: #111;
     background-color: #ddd;
+    font-size: large;
+    font-weight: 500;
     display: block;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
     border: 0.1rem solid #222;
     border-radius: 0.2rem;
+    max-width: fit-content;
 }
 
 

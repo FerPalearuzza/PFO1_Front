@@ -21,11 +21,11 @@ https://w3schools.com
 - [x] css nabvar -> hamburguesa
 - [ ] css hero [a la izq, falta boton de link a github y foto de fondo]
 - [x] css habilidades
-- [ ] css proyectos [¡ARREGLAR BUG EN EL PRIMER CARD!]
-- [ ] css contacto
+- [x] css proyectos [¡ARREGLAR BUG EN EL PRIMER CARD!]
 - [x] css footer [se puede mejorar]
+- [ ] css contacto
+- [ ] arreglar tamaño icono github
 - [ ] fondo, color o imagen
-
 
 ## CONSIGNAS: Qué tenés que hacer, paso a paso
 - [x] Leé toda la consigna antes de crear archivos o pedir ayuda a una IA. 
@@ -36,24 +36,26 @@ Creá tu landing de portafolio con HTML y CSS. Debe mostrar tu:
 - [x] una presentación, 
 - [x] tus habilidades,  
 - [x] una forma de contacto 
-- [x] una sección personal a elección: ¿sería los proyectos?
+- [x] una sección personal a elección.
 
 Diseñala con libertad: el estilo es libre. Aprovechá la oportunidad para ser creativo/a y tomar decisiones visuales propias.
 
 Aplicá los requisitos técnicos: 
 - [x] HTML semántico con header, nav, main y footer; 
-- [ ] CSS propio;
+- [x] CSS propio;
 - [x] Google Fonts; 
 - [x] Flexbox o Grid; 
 - [x] diseño responsive; 
 - [x] una transición o animación; 
 - [ ] imágenes con alt y 
-- [x] formulario con label ¿hecho?
+- [x] formulario con label
 
 - [ ] Incluí GitHub en la landing: agregá un enlace visible y funcional a tu perfil de GitHub. 
 - [x] Luego publicá el proyecto con Vercel.
 
 - [ ] Usá imágenes con criterio: podés usar fotos propias y también procesarlas con IA. Si usás imágenes generadas o intervenidas, registralo en el README.
+* Logo github: proviene del kit oficial de la marca. Fuente: https://brand.github.com/foundations/logo
+* Imagen del hero obtenida de https://unsplash.com/es/
 
 - [x] Completá el archivo README.md del repositorio: incluí una breve descripción de la PFO1, la URL de Vercel, las decisiones que tomaste y la declaración de uso de IA.
 
@@ -66,4 +68,11 @@ Aplicá los requisitos técnicos:
 
 - [x] Entregá el enlace del repositorio público en la planilla de entregas, que estará disponible en breve. La entrega es un único enlace: el de tu repositorio.
 ---
-
+Cosas para agregar: 
+- [ ] Iconos de cada tecnología para el stack
+- [ ] Imágenes de los proyectos, capturas de pantalla en la mitad superior del card
+- [ ] Un logo para el header
+- [ ] Enlace a Linkedin
+- [ ] Panel enlaces al lado del formulario de contacto
+- [ ] Hacer overlay en el hero, añadir un container para que el overlay ocupe todo. Usar blur 
+- [ ] Acomodar posición imagen.
