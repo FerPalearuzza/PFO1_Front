@@ -10,8 +10,8 @@ Se utilizó Github Copilot por medio de VSCode, plan gratuito para generación d
 Se utilizó Gemini plan gratuito para la estructura básica de las tarjetas de proyecto, y punto de partida para aplicar el css. Sujeto a modificaciones propias y de Github Copilot.
 Los comentarios son, algunos, de mi autoría, y otros son modificaciones o simplificaciones de los comentarios que dejan los agentes de ia .
 Se utilizó una adaptación del código gneerado por gemini en los resultados de búsqueda de google al buscar ejemplos de código para menú hamburguesa, el cual ya conocía de forma limitada. 
-Se utilizó github copilot para pulir y debuggear el funcionamiento del navbar. 
-
+Se utilizó github copilot para pulir y debuggear el funcionamiento del navbar, tarjetas de proyectos y otros.
+Se utilizó Gemini y Github Copilot plan gratuito como herramienta de consulta sobre parámetros y configuraciones de CSS y svg.
 
 ## Fuentes adicionales consultadas
 https://grid.malven.co
@@ -78,3 +78,4 @@ Aplicá los requisitos técnicos:
 - [ ] Panel enlaces al lado del formulario de contacto
 - [ ] Hacer overlay en el hero, añadir un container para que el overlay ocupe todo. Usar blur 
 - [ ] Acomodar posición imagen.
+- [ ] favicon
