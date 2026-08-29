@@ -24,7 +24,7 @@ https://w3schools.com
 - [x] css proyectos [¡ARREGLAR BUG EN EL PRIMER CARD!]
 - [x] css footer [se puede mejorar]
 - [x] css contacto
-- [ ] arreglar tamaño icono github
+- [x] arreglar tamaño icono github
 - [x] fondo, color o imagen
 
 ## CONSIGNAS: Qué tenés que hacer, paso a paso
@@ -77,5 +77,5 @@ Aplicá los requisitos técnicos:
 - [ ] Enlace a Linkedin
 - [ ] Panel enlaces al lado del formulario de contacto
 - [ ] Hacer overlay en el hero, añadir un container para que el overlay ocupe todo. Usar blur 
-- [ ] Acomodar posición imagen.
+- [x] Acomodar posición imagen.
 - [ ] favicon

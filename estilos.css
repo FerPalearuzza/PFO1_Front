@@ -41,7 +41,7 @@ header {
 
 .logo{
     display:block;
-    color: #06B6D4;
+    color: #fff;
     font-size: 1.2rem;
     font-weight: bold;
     margin: auto 1rem;
@@ -440,13 +440,15 @@ p {
 
 /* Footer */
 footer {
-    background-color: #444;
+    background-color: #010414;
+    color: #ddd;
     display: flex;
     flex-direction: column ;
     gap: 15px;
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    padding: 2rem;
+    padding-bottom: 3rem;
 }
 
 footer p {
@@ -456,4 +458,7 @@ footer p {
 footer a {
     display: flex;
     align-items: center;
+}
+.github-icon {
+    max-height: 2rem;
 }
