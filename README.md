@@ -19,13 +19,13 @@ https://w3schools.com
 
 ## Para hacer
 - [x] css nabvar -> hamburguesa
-- [ ] css hero [a la izq, falta boton de link a github y foto de fondo]
+- [x] css hero
 - [x] css habilidades
 - [x] css proyectos [¡ARREGLAR BUG EN EL PRIMER CARD!]
 - [x] css footer [se puede mejorar]
-- [ ] css contacto
+- [x] css contacto
 - [ ] arreglar tamaño icono github
-- [ ] fondo, color o imagen
+- [x] fondo, color o imagen
 
 ## CONSIGNAS: Qué tenés que hacer, paso a paso
 - [x] Leé toda la consigna antes de crear archivos o pedir ayuda a una IA. 
@@ -47,13 +47,13 @@ Aplicá los requisitos técnicos:
 - [x] Flexbox o Grid; 
 - [x] diseño responsive; 
 - [x] una transición o animación; 
-- [ ] imágenes con alt y 
+- [x] imágenes con alt (icono de github en el footer)
 - [x] formulario con label
 
-- [ ] Incluí GitHub en la landing: agregá un enlace visible y funcional a tu perfil de GitHub. 
+- [x] Incluí GitHub en la landing: agregá un enlace visible y funcional a tu perfil de GitHub. 
 - [x] Luego publicá el proyecto con Vercel.
 
-- [ ] Usá imágenes con criterio: podés usar fotos propias y también procesarlas con IA. Si usás imágenes generadas o intervenidas, registralo en el README.
+- [x] Usá imágenes con criterio: podés usar fotos propias y también procesarlas con IA. Si usás imágenes generadas o intervenidas, registralo en el README.
 * Logo github: proviene del kit oficial de la marca. Fuente: https://brand.github.com/foundations/logo
 * Imagen del hero obtenida de https://unsplash.com/es/
 
@@ -67,8 +67,10 @@ Aplicá los requisitos técnicos:
         y qué revisaste o adaptaste con criterio propio.
 
 - [x] Entregá el enlace del repositorio público en la planilla de entregas, que estará disponible en breve. La entrega es un único enlace: el de tu repositorio.
+
 ---
-Cosas para agregar: 
+
+## Cosas para agregar: 
 - [ ] Iconos de cada tecnología para el stack
 - [ ] Imágenes de los proyectos, capturas de pantalla en la mitad superior del card
 - [ ] Un logo para el header

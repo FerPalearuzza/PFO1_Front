@@ -142,7 +142,7 @@ nav {
     padding: 0.6rem;
     font-size: 0.9rem;
     font-weight: 500;
-
+    
     text-align: center;
     text-decoration: none;
     border: 0.1rem solid #222;
@@ -163,43 +163,59 @@ nav {
 
 #inicio {
     background-color: #071d7e; /* al estar primero es sobreescrito por la imagen si esta carga, de lo contrario, se muestra el color */
-    background-image: url(img/fondo_abstracto.avif);
+    background-image: url(img/fondo_abstracto_cut.png);
     background-size: cover;
-    background-position: center;
+    background-position: center 30%;
 
     /*min-height: 100vh; uso min height para no cortar el contenido */
     min-height: calc(100vh - 3.2rem); /* la altura de la pantalla menos la del header que ya establecí */
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem;
 
 }
 
 .contenedor-inicio {
     color: #ddd;
+    font-size: 1.7rem;
 }
 
 .boton-hero{
-    text-decoration: none;
-    color: #111;
-    background-color: #ddd;
-    font-size: large;
-    font-weight: 500;
+    color: #0b1f33;
+    background: linear-gradient(135deg, #eaf4ff, #0586f7);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
+    font-size: 2rem;
+    border: 0;
     display: block;
     padding: 0.5rem 2rem;
     max-width: fit-content;
 }
 
 .boton-hero:hover{
-    background-color: rgb(172, 195, 235);
-}
-.boton-hero:active{
-    background-color: #264dfc;
-    color: #ddd;
-
+    transform: translateY(-2px);
 }
 
+/* PARA EL BOTON disitnas posibilidades:
+"blanco y azul sutil "
+background-color: #f3f7ff;
+color: #0f172a;
 
+"celeste"
+background-color: #38bdf8;
+color: #03131d;
+
+"serio azul y blanco"
+background-color: #0f3d7a;
+color: #eef6ff;
+
+"VOLETA  YAZUL ELECTRICO"
+background-color: #7c3aed;
+color: #fff;
+
+linear-gradient(135deg, #eaf4ff, #bfe1ff);
+color: #0b1f33;
+box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
+*/
 
 .lista-tarjetas-habilidades {
     grid-template-columns: 1fr;
